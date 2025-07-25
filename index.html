@@ -18,11 +18,11 @@
     <title>Document</title>
 </head>
 
-<body>
-    <header style="margin-top: 2%; margin-left: 7%; margin-right: 7%;">
-        <nav class="flex justify-between">
-            <div style="margin-top: -2%;">
-                <img src="assets/logo.png" class="lg:w-1/1 w-2/3" alt="">
+<body class="overflow-x-hidden">
+    <header>
+        <nav class="flex justify-between  mt-8 mx-[7%]">
+            <div class="mt-[-8px]">
+                <img src="assets/logo.png" class="lg:w-full w-2/3" alt="">
             </div>
             <div class="flex justify-between space-x-4">
                 <div class="space-x-4 hidden sm:block pt-3">
@@ -31,11 +31,28 @@
                     <a href="" class="text-gray-500">About Us</a>
                 </div>
                 <div>
-                    <i class="fa-solid fa-cart-shopping hidden md:block pt-4"> Cart ($56) </i>
+                    <i class="fa-solid fa-cart-shopping hidden md:block pt-4"> Cart ($56)</i>
                 </div>
 
             </div>
         </nav>
+        <section class="mt-12 flex flex-col-reverse sm:flex-row overflow-x-hidden">
+            <div class="w-full sm:w-1/2 flex-1 sm:mt-40 mx-[7%]">
+                <p class="noto-serif-noto text-5xl font-bold">ALWAYS <span
+                        class="text-orange-600">FRESH<br>FLOWERS</span></p><br>
+
+                <p class="inter-inter text-gray-500 mr-12">Indulge your senses with the beauty and fragrance of
+                    our fresh
+                    flower shop. From
+                    classic
+                    roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion.
+                </p>
+            </div>
+            <div class="flex-1 w-full mr-[7%]  mt-0 sm:mt-15 sm:w-1/2 mb-8 sm:mb-0 sm:mr[0%]">
+                <img src="assets/hero-flower.png" class="w-full h-auto" alt="">
+            </div>
+        </section>
+
     </header>
 
 </body>
